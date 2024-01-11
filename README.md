@@ -24,7 +24,8 @@ and then run the following command to identify images :
 ```
 python face_identification --image YOUR_IMAGE
 ```  
-![Sample Image](Face_Identification/output/output.png)
+![Sample Image](Face_Identification/output/output.png)  
+
 3 - This implementation features real-time face identification using a webcam. The system detects faces in the webcam feed and attempts to identify the person. If the face is successfully identified, the user gains access to a hand-painting program. Otherwise, an "Access Denied!" message is displayed
 
 
