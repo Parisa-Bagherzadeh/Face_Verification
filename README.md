@@ -28,7 +28,11 @@ python face_identification --image YOUR_IMAGE
 ![Sample Image](Face_Identification/output/output.png)  
 
 #### 3 - Smart Webacm :  
- This implementation in FaceID folder, features real-time face identification using a webcam. The system detects faces in the webcam feed and attempts to identify the person. If the face is successfully identified, the user gains access to a hand-painting program. Otherwise, an "Access Denied!" message is displayed
+ This implementation in FaceID folder, features real-time face identification using a webcam. The system detects faces in the webcam feed and attempts to identify the person. If the face is successfully identified, the user gains access to a hand-painting program. Otherwise, an "Access Denied!" message is displayed.  
+ To use the AI paint, run the following command in FaceID folder path :  
+ ```
+ python AIPaint.py
+ ```
 
 
 
