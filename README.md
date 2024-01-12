@@ -1,16 +1,15 @@
 # Face Verification  
 ### This project consists of three parts :  
 #### 1 - Face Verification :  
-This part contains code for comparing two images of faces using the InsightFace library. The goal is to determine whether the two images belong to the same person or not 
+This part contains code for comparing two images of faces using the InsightFace library. The goal is to determine whether the two images belong to the same person or not.  
+  
 
-### Install 
+### How to Install 
 ```
 pip install -r requirements
 ```    
+For face verification,run the following command : 
 
-#### Usage 
-1 - git clone https://github.com/Parisa-Bagherzadeh/Face_Verification.git  
-2 - Run the following command :  
 ```
 python face_verification.py --image1 images/image1.jpg --image2 images/image2.jpg
 ```
