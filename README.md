@@ -8,7 +8,7 @@ This part contains code for comparing two images of faces using the InsightFace 
 ```
 pip install -r requirements
 ```    
-For face verification,run the following command : 
+For face verification, run the following command : 
 
 ```
 python face_verification.py --image1 images/image1.jpg --image2 images/image2.jpg
