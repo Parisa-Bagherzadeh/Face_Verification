@@ -55,9 +55,11 @@ class FaceIdentification():
                 cv2.putText(result_image, "Unknown",
                 (int(result.bbox[0]) - 40, int(result.bbox[1])),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 3,cv2.LINE_AA)
-                
+
+             
         plt.imshow(result_image)  
         plt.axis("off")
+        plt.savefig('output/updated_output.png')  
         plt.show()     
 
     
