@@ -1,4 +1,3 @@
-# Face Verification  
 ### This project consists of three parts :  
 #### 1 - Face Verification :  
 This part contains code for comparing two images of faces using the InsightFace library. The goal is to determine whether the two images belong to the same person or not.  
