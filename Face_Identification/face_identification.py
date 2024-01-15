@@ -1,8 +1,10 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import argparse
 from argparse import ArgumentParser
 from insightface.app import FaceAnalysis
+from create_face_bank import main
 
 
 class FaceIdentification():
@@ -13,6 +15,9 @@ class FaceIdentification():
     def load_model(self):
         self.app = FaceAnalysis(name = "buffalo_s", providers = ["CPUExecutionProvider"])
         self.app.prepare(ctx_id = 0, det_size = (640, 640))
+
+    def update(self):
+        main()
 
 
     def identification(self):
@@ -65,7 +70,16 @@ if __name__ =="__main__":
     
     parser = ArgumentParser()
     parser.add_argument("--image",required=False, type = str, default = "input/one_direction.jpg")
+    parser.add_argument("--update", type=str , action = argparse.BooleanOptionalAction)
     args = parser.parse_args()
+
+    
+        
+
     face_identification = FaceIdentification(args.image)
     face_identification.load_model()
+
+    if args.update:
+        face_identification.update()
+        
     face_identification.identification()
