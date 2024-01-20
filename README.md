@@ -5,7 +5,7 @@ This part contains code for comparing two images of faces using the InsightFace 
 
 ### How to Install 
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```    
 For face verification, run the following command : 
 
@@ -21,9 +21,9 @@ You can add new feature vector by putting your images in face_bank folder and ru
 python face_identification.py --update 
 ```  
 It will update the face bank 
-and then run the following command to identify faces on your image:  
+and then run the following command to identify faces on your own image:  
 ```
-python face_identification --image YOUR_IMAGE
+python face_identification --update --image input/YOUR_IMAGE
 ```  
 ##### This is the result after updating (Liam has been added) :
 ![Sample Image](Face_Identification/output/updated_output.png)  
