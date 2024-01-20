@@ -20,13 +20,15 @@ You can add new feature vector by putting your images in face_bank folder and ru
 ```
 python face_identification.py --update 
 ```  
+##### This is the result after updating (Liam has been added) :
+![Sample Image](Face_Identification/output/updated_output.png)  
+
 It will update the face bank 
 and then run the following command to identify faces on your own image:  
 ```
 python face_identification --update --image input/YOUR_IMAGE
 ```  
-##### This is the result after updating (Liam has been added) :
-![Sample Image](Face_Identification/output/updated_output.png)  
+
 #### 3 - Smart Webacm :  
  This implementation in FaceID folder, features real-time face identification using a webcam. The system detects faces in the webcam feed and attempts to identify the person. If the face is successfully identified, the user gains access to a hand-painting program. Otherwise, an "Access Denied!" message is displayed.  
  To use the AI paint, run the following command in FaceID folder path :  
