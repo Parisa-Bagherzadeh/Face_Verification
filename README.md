@@ -23,8 +23,8 @@ python face_identification.py --update
 ##### This is the result after updating (Liam has been added) :
 ![Sample Image](Face_Identification/output/updated_output.png)  
 
-It will update the face bank 
-and then run the following command to identify faces on your own image:  
+It will update the face bank.   
+You can also run the following command to identify faces on your own image:  
 ```
 python face_identification --update --image input/YOUR_IMAGE
 ```  
